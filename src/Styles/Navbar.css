@@ -1,0 +1,12 @@
+.nvb{
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+}
+
+.nvb :hover{
+    color: rgb(215, 83, 0);
+    
+}
+
+
