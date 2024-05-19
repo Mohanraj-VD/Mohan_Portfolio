@@ -1,12 +1,6 @@
-.nvb{
-    font-size: larger;
-    font-weight: bolder;
-    position: relative;
+
+@media only screen and (max-width: 600px)  {
+    #apb{
+        position: fixed;
+    }
 }
-
-.nvb :hover{
-    color: rgb(215, 83, 0);
-    
-}
-
-

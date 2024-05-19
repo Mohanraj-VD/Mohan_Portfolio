@@ -1,0 +1,43 @@
+#table{
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.cd{
+    margin-left: 2em;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: left;
+    font-style: italic;
+    width:90%;
+    margin-left: 5%;
+    margin-right:5%;
+    color: black;
+    background-color: rgb(113, 135, 113);
+    border: 2px solid rgb(74, 73, 72);
+}
+
+.cd1{
+    margin-left: 1%;
+}
+
+@media only screen and (max-width: 600px)  {
+    #table{
+        margin-left: 1%;
+        width:97%;
+        height: 150px;
+        position: inherit;
+    }
+    .cd{
+    
+        font-weight: bolder;
+        font-size: larger;
+        text-align: left;
+        margin-left: 1%;
+        width:97%;
+
+    }
+}

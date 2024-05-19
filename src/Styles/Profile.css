@@ -1,78 +1,41 @@
-
-.cnt {
-    position: fixed;
+#p{
+    font-Family: "Comic Sans MS", cursive, sans-serif;
+    display: block; 
     text-align: justify;
-    font-size: 20px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: rgb(138, 138, 138);
-    font-weight: lighter;
-    background-color: rgb(29, 32, 31);
-    height:100vh;
-}
-/* .me-auto{
-    align-content: center;
-    font-size: large;
-    font-weight: bold;
-}
-.me-auto :hover{
-    align-content: center;
-    font-size: large;
-    color: wheat;
-    background-color: rgb(35, 56, 60);
-    border: 2px solid hsl(45, 99%, 52%);
-    border-radius: 5px;    
-}  */
-
-/* .navbar-light .navbar-nav .nav-link.active  {
-    color: ;
-} */
-
-.nm{
-    color:hsl(45, 99%, 52%);
+    margin-left: 5%;
+    width:90%;
+    margin-right:5%;
+    scroll-behavior: unset;
+    position: relative;
     
 }
-
-.img{
-    border: 4px solid hsl(45, 99%, 52%);
-}
-.col1{
-    
-    margin-left: 2em;
-    margin-top: 5vh;
-    margin-right: 4vw;
+.profile-container{
+    width: 100%;
+    height: 100%;
 }
 
-.col2{
-    margin-top: 5vh;
-    margin-right: 4vw;
+.profilephoto{
+    padding-top:7%;
+    display: block; 
+    margin-left: 40%;
+    width: 150px; 
+    height: 250px;
 }
+@media only screen and (max-width: 600px)  {
+   .profilephoto{
+    padding-top:15%;
+    width:180px;
+    height: 300px;
+    margin-left: 30%;
+    position: sticky;
+   }
+   #p{
+    margin-top: 1em;
+     display: block; 
+     align-items: center;
+     margin-left: 2%;
+     width:95%;
+     background-color: bisque;
 
-@media only screen and (max-width: 600px) {
-    .cnt {
-        position: fixed;
-        text-align: justify;
-        font-size: 20px;
-        font-family: "Comic Sans MS", cursive, sans-serif;
-        color: rgb(138, 138, 138);
-        font-weight: lighter;
-        background-color: rgb(29, 32, 31);
-        height:100vh;
     }
-    .me-auto{
-        align-content: center;
-        font-size: large;
-        font-weight: bold;
-    }
-    
-    .col1{
-        
-        margin-left: 2em;
-        margin-top: 5vh;
-        margin-right: 8vw;
-    }
-    
-    .col2{
-        margin-top: 5vh;
-        margin-right: 1vw;
-    }
-}
+  }
