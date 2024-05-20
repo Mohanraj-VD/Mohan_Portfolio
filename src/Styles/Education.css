@@ -1,43 +1,62 @@
-#table{
+#table {
     margin-left: 5%;
     margin-right: 5%;
-    width:90%;
-    height: 300px;
+    width: 90%;
+    height: 250px;
     vertical-align: middle;
+    border-style: groove;
+    border-color: #005585;
+    
+
 }
 
-.cd{
+.cd {
     margin-left: 2em;
     font-weight: bolder;
     font-size: 25px;
-    text-align: left;
+    text-align: center;
     font-style: italic;
-    width:90%;
+    width: 15%;
+    margin-top: 1em;
     margin-left: 5%;
-    margin-right:5%;
-    color: black;
-    background-color: rgb(113, 135, 113);
-    border: 2px solid rgb(74, 73, 72);
+    margin-right: 85%;
+    color: #005585;
+    background-color: transparent;
+    border: 3px groove gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.cd1{
-    margin-left: 1%;
+.cd1 {
+    margin-left: 3%;
 }
 
-@media only screen and (max-width: 600px)  {
-    #table{
+#tcell {
+    color: #ffc669;
+    font-weight: bolder;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+    #table {
         margin-left: 1%;
-        width:97%;
+        width: 95%;
         height: 150px;
         position: inherit;
     }
-    .cd{
-    
+
+    .cd {
+
         font-weight: bolder;
         font-size: larger;
-        text-align: left;
+        text-align: center;
         margin-left: 1%;
-        width:97%;
+        width: 35%;
 
+    }
+    .cd1{
+        margin-left: 1%;
+        text-align: center;
+        width: 35%;
     }
 }

@@ -1,26 +1,26 @@
-import Table from 'react-bootstrap/Table';
+import { Table, TableHead,TableRow,TableCell } from '@mui/material';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/Education.css';
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import Box from '@mui/material/Box';
 
 export default function Education() {
     return (
         <>
-            <Card className='cd'>
+            <Box className='cd'>
                 <span className='cd1'>
                 Education</span>
-                </Card>
-            <Table striped="columns" bordered hover variant='dark' id="table" style={{border:"2px"}}>
-                <thead id="thead">
-                    <tr>
-                        <th>S.No</th>
-                        <th>Qualification</th>
-                        <th>Institution</th>
-                        <th>CGPA/%</th>
-                        <th>Year</th>
-                    </tr>
-                </thead>
+                </Box>
+            <Table striped="columns" bordered hover variant='primary' id="table" sx={{border:2}} >
+                <TableHead sx={{bgcolor:"#005585", fontStyle:"italic"}}>
+                    <TableRow >
+                        <TableCell id="tcell">S.No</TableCell>
+                        <TableCell id="tcell" align="center">Qualification</TableCell>
+                        <TableCell id="tcell" align="center" >Institution</TableCell>
+                        <TableCell id="tcell" align="center">CGPA/%</TableCell>
+                        <TableCell id="tcell" align="center">Year</TableCell>
+                    </TableRow>
+                </TableHead>
                 <tbody>
                     <tr>
                         <td>1</td>
