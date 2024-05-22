@@ -6,7 +6,6 @@
     width:98%;
     margin-top:1%;
     scroll-behavior: unset;
-    position: relative;
    opacity: 1;
 }
 
@@ -15,10 +14,7 @@
     margin-left: 5%;
     width:90%;
     margin-right:5%;
-    scroll-behavior: unset;
-    position: relative;
     border: 5px groove #005585;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #F7EBC9;
     border-radius: 10px;
 }
@@ -31,35 +27,62 @@
     height: 100%;
 }
 
+.profilepic{
+    
+    padding-top:4%;
+    width:40%;
+    margin-left: 30%;
+    opacity: 0.9;
+    display: block;
+    position:sticky;
+    overflow: hidden;
+}
 .profilephoto{
-    padding-top:2%;
+    padding-top:6%;
     display: block; 
-    margin-left: 44%;
-    width: 170px; 
-    height: 250px;
+    margin-left: 39%;
+    width: 190px; 
+    height: 230px;
+    position:sticky;
+    margin-top: 1%;
+    overflow: hidden;
+}
+
+#foot{
+    margin-bottom: 5%;
 }
 
 
 @media only screen and (max-width: 768px)  {
    .profilephoto{
     padding-top:2%;
-    width:200px;
-    height: 270px;
-    margin-left: 40%;
+    width:40%;
+    height: 180px;
+    width: 160px;
+    margin-left: 20%;
+    margin-right: 30%;
+    display: block;
+    margin-top: 20%;
    }
+
+   .profilepic{
+    
+    padding-top:4%;
+    width:70%;
+    margin-left: 20%;
+}
    #p{
     margin-top: 1em;
      display: block; 
      align-items: center;
      margin-left: 2%;
      width:95%;
-     position: inherit;
 
     }
 
     #cd1{
         margin-left: 1%;
-        width:100%;
+        width:98%;
         position: inherit;
     }
   }

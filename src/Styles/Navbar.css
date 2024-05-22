@@ -1,4 +1,4 @@
-#pp{
+#pp {
     margin-left: 2em;
     color: #005585;
     font-weight: bold;
@@ -7,16 +7,90 @@
     letter-spacing: 0.2em;
 }
 
-#main{
-    background-color: rgb(246, 161, 101);
-    box-shadow: 0px 5px 30px 1px groove rgb(182, 140, 69);
-    
+#main {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(246, 161, 101); 
+    z-index:1;
+    overflow:hidden
 }
 
-@media only screen and (max-width: 768px)  {
-    #main{
-       margin:0;
-       position: inherit;
+#nv1 {
+    color: #005585;
+    font-weight: bold;
+    margin-left: 10%;
+    font-family: monospace;
+    letter-spacing: 0.1em;
+
+}
+
+#nv1:hover {
+    background-color: #005585;
+    color: rgb(246, 161, 101);
+
+}
+
+#nv2 {
+    color: #005585;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 0.1em;
+}
+
+#nv2:hover {
+    background-color: #005585;
+    color: rgb(246, 161, 101);
+
+}
+
+#dropdown:hover {
+    background-color: #005585;
+    color: rgb(246, 161, 101);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    #main {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    #nv1 {
         
+        color: #005585;
+        font-weight: bold;
+        margin-left: 0%;
+        padding-left: 3%;
+        width: 100%;
+        text-align: left;
+    }
+
+    #nv1:hover {
+        background-color: #005585;
+        color: rgb(246, 161, 101);
+        padding: 3%;
+    }
+    
+
+    #nv2{
+        color: #005585;
+        font-weight: bold;
+        margin-left: 0%;
+        padding-left: 3%;
+        width: 100%;
+        text-align: left;
+
+    }
+
+    #nv2:hover {
+        background-color: #005585;
+        color: rgb(246, 161, 101);
+        padding: 3%;
+    }
+
+    #dropdown{
+        width: 35%;
     }
 }

@@ -1,27 +1,31 @@
-import { Table, TableHead,TableRow,TableCell } from '@mui/material';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/Education.css';
 import React from 'react';
-import Box from '@mui/material/Box';
+import About from './About';
 
 export default function Education() {
     return (
+
         <>
-            <Box className='cd'>
-                <span className='cd1'>
-                Education</span>
-                </Box>
-            <Table striped="columns" bordered hover variant='primary' id="table" sx={{border:2}} >
-                <TableHead sx={{bgcolor:"#005585", fontStyle:"italic"}}>
-                    <TableRow >
-                        <TableCell id="tcell">S.No</TableCell>
-                        <TableCell id="tcell" align="center">Qualification</TableCell>
-                        <TableCell id="tcell" align="center" >Institution</TableCell>
-                        <TableCell id="tcell" align="center">CGPA/%</TableCell>
-                        <TableCell id="tcell" align="center">Year</TableCell>
-                    </TableRow>
-                </TableHead>
+            <About />
+            <div className='cd'>
+                <span className='cd1' id="edu">
+                    Education</span>
+            </div>
+            <div id="cd1">
+            <table id="table" style={{width:"100%"}}>
+
                 <tbody>
+                <tr id="trow">
+                        <th id="tcell1" align="center">S.No</th>
+                        <th id="tcell2" align="center">Qualification</th>
+                        <th id="tcell3" align="center" >Institution</th>
+                        <th id="tcell4" align="center">CGPA/%</th>
+                        <th id="tcell5" align="center">Year</th>
+                </tr></tbody>
+                <tbody id="tb1">
+
+
+                    {/* <img src={require('../Assets/learning.png')}/> */}
                     <tr>
                         <td>1</td>
                         <td>Bachelor of Engineering (Computer Science Engineering)</td>
@@ -44,7 +48,8 @@ export default function Education() {
                         <td>2013 - 2014</td>
                     </tr>
                 </tbody>
-            </Table>
+            </table>
+            </div>
         </>
     );
 }
