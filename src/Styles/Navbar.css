@@ -66,7 +66,7 @@
     }
     
     #pp{
-        padding-left: 20%;
+        margin-left: 20%;
 
     }
     #nv1 {
@@ -74,7 +74,7 @@
         color: #005585;
         font-weight: bold;
         margin-left: 0%;
-        padding-left: 3%;
+        padding-left: 1%;
         width: 100%;
         text-align: left;
     }
