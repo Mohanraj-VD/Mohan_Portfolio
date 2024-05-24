@@ -1,9 +1,13 @@
+@import "https://fonts.googleapis.com";
+@import "https://fonts.gstatic.com";
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap";;
+
 #pp {
     margin-left: 2em;
     color: #005585;
     font-weight: bold;
     font-size: 20px;
-    font-family: monospace;
+    font-family: 'oswald',serif;
     letter-spacing: 0.2em;
 }
 
@@ -12,13 +16,12 @@
     width: 100%;
     background-color: rgb(246, 161, 101); 
     z-index:1;
-    overflow:hidden
 }
 
 #nv1 {
     color: #005585;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 19%;
     font-family: monospace;
     letter-spacing: 0.1em;
 
@@ -37,6 +40,11 @@
     letter-spacing: 0.1em;
 }
 
+#dropdown{
+    background-color: rgb(219, 217, 217);
+    color:#005585;
+    font-weight: bold;
+}
 #nv2:hover {
     background-color: #005585;
     color: rgb(246, 161, 101);
@@ -49,14 +57,18 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     #main {
-        display: flex;
-        position: fixed;
+        font-display: block;
+        position: inherit;
         width: 100%;
-        table-layout: fixed;
+        z-index:1;
     }
+    
+    #pp{
+        padding-left: 20%;
 
+    }
     #nv1 {
         
         color: #005585;
@@ -90,7 +102,4 @@
         padding: 3%;
     }
 
-    #dropdown{
-        width: 35%;
-    }
 }

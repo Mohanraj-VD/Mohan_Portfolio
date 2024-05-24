@@ -4,6 +4,7 @@ import '../Styles/Profile.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Education from './Education';
 import Extras from './Extras';
+import { FaArrowAltCircleUp } from "react-icons/fa";
 const Profile = ({ ...props }) => {
     return (
         <div>
@@ -26,8 +27,8 @@ const Profile = ({ ...props }) => {
                 <Education />
                 <Extras/>
             </div>
-            <footer id="foot">
-                    
+            <footer id="foot"><a href="#">
+            <FaArrowAltCircleUp id="fa">Back to Top</FaArrowAltCircleUp></a>
             </footer></div>
     );
 }

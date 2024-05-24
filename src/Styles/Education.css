@@ -1,3 +1,7 @@
+@import "https://fonts.googleapis.com";
+@import "https://fonts.gstatic.com";
+@import "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap";
+
 #table {
     margin-left: 0%;
     margin-right: 5%;
@@ -9,8 +13,6 @@
     border-radius: 5px !important;
 
 }
-
-
 
 th,td {
     border: 2px solid #005585;
@@ -31,7 +33,10 @@ th,td {
     margin-right: 85%;
     color: #005585;
     background-color: transparent;
-    border: 3px groove gold;
+    border-left: 4px groove #005585;
+    border-top: 4px groove gold;
+    border-right: 4px groove #005585;
+    border-bottom: 4px groove gold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -48,42 +53,66 @@ th,td {
 #tcell1 {
     color: #ffc669;
     font-weight: bolder;
-    font-size: 19px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    letter-spacing: 0.2em;
 }
 
 #tcell2 {
     color: #ffc669;
     font-weight: bolder;
-    font-size: 19px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    letter-spacing: 0.2em;
 }
 
 #tcell3 {
     color: #ffc669;
     font-weight: bolder;
-    font-size: 19px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    letter-spacing: 0.2em;
 }
 
 #tcell4 {
     color: #ffc669;
     font-weight: bolder;
-    font-size: 19px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    letter-spacing: 0.2em;
 }
 
 #tcell5 {
     color: #ffc669;
     font-weight: bolder;
-    font-size: 19px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-size: large;
+    letter-spacing: 0.2em;
 }
 
 #tb1 {
-    font-weight: bold;
+    background-color: rgb(241, 255, 254);
+    color: #005585;
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-style: normal;
+}
+
+#td1 {
     border-color: black;
-    background-color: #F7EBC9;
+    background-color: rgb(241, 255, 254);
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-style: normal;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 200px) {
@@ -111,13 +140,13 @@ th,td {
 
     #tcell1 {
         font-weight: bolder;
-        font-size: 12px;
+        font-size: 10px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     #tcell2 {
         font-weight: bolder;
-        font-size: 10px;
+        font-size: 9px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
@@ -129,19 +158,23 @@ th,td {
 
     #tcell4 {
         font-weight: bolder;
-        font-size: 12px;
+        font-size: 10px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     #tcell5 {
         font-weight: bolder;
-        font-size: 12px;
+        font-size: 10px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     #tb1 {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: bold;
-        border-color: black;
+    }
+
+    #td1{
+        
+        font-size: 11px;
     }
 }
