@@ -112,11 +112,11 @@ Tech Stack and Tools: React, HTML 5 , CSS 3, Vercel</li>
         </div>
         <div id="cd1">
             <div id="p" ><a href="https://www.credly.com/badges/f48bb848-7075-4943-8389-70c75b61c059/linked_in_profile" target='blank' >
-                Getting Started with SAP Cloud Application Programming Model - Record of Achievement<>&nbsp;</><i className='fa fa-external-link' id="ext" style={{ 'font-size': '15px', 'color': '#005585' }} ></i></a>
+                Getting Started with SAP Cloud Application Programming Model - Record of Achievement<>&nbsp;</><i className='fa fa-external-link' id="ext" style={{ 'fontSize': '15px', 'color': '#005585' }} ></i></a>
             </div>
             <div id="p"><a href="https://www.udemy.com/certificate/UC-d84c76cc-cbc8-4187-82d4-710772667080/" target='blank'>
                 Master Spring Boot 3 & Spring Framework 6 with Java | Udemy | Java, Spring Boot, Spring Framework, Rest API
-                <>&nbsp;</><i className='fa fa-external-link' id="ext" style={{ 'font-size': '15px', 'color': '#005585' }} ></i>
+                <>&nbsp;</><i className='fa fa-external-link' id="ext" style={{ 'fontSize': '15px', 'color': '#005585' }} ></i>
             </a></div>
         </div>
 

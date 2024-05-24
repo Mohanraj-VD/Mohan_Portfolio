@@ -14,7 +14,6 @@
     margin-left: 1%;
     width: 98%;
     margin-top: 1%;
-    scroll-behavior: unset;
     opacity: 1;
     margin-bottom: 1%;
 }
@@ -70,7 +69,7 @@
 }
 
 #fa:hover{
-    fill: rgb(9, 156, 141);
+    fill: rgb(246, 161, 101);
 }
 
 @media only screen and (max-width: 768px) {
