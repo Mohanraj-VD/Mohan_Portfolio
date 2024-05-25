@@ -72,9 +72,8 @@
         
         color: #005585;
         font-weight: bold;
-        margin-left: 3%;
+        padding-left: 3%;
         width: 100%;
-        text-align: left;
     }
 
     #nv1:hover {
