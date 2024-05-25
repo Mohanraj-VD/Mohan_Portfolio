@@ -24,7 +24,7 @@ th,td {
 .cd {
     margin-left: 2em;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     font-style: italic;
     width: 15%;
@@ -115,7 +115,7 @@ th,td {
     font-style: normal;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (min-width: 50px){
     #table {
         margin-left: 0%;
         width: 98%;
@@ -126,16 +126,17 @@ th,td {
     .cd {
 
         font-weight: bolder;
-        font-size: larger;
+        font-size: 15px;
         text-align: center;
         margin-left: 1%;
-        width: 40%;
+        width: 200px;
     }
 
     .cd1 {
         margin-left: 1%;
         text-align: center;
         width: 35%;
+        grid-row: inherit;
     }
 
     #tcell1 {

@@ -60,21 +60,19 @@
 @media only screen and (max-width: 800px) {
     #main {
         font-display: block;
-        position: inherit;
+        position: relative;
         width: 100%;
         z-index:1;
     }
     
     #pp{
         margin-left: 5%;
-        position:inherit;
     }
     #nv1 {
         
         color: #005585;
         font-weight: bold;
-        margin-left: 0%;
-        padding-left: 3%;
+        margin-left: 3%;
         width: 100%;
         text-align: left;
     }
