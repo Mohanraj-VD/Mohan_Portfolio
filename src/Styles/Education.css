@@ -34,18 +34,18 @@ th,td {
     color: #005585;
     background-color: transparent;
     border-left: 4px groove #005585;
-    border-top: 4px groove rgb(224, 128, 60);;
+    border-top: 4px groove rgb(244, 174, 124);
     border-right: 4px groove #005585;
-    border-bottom: 4px groove rgb(224, 128, 60);;
+    border-bottom: 4px groove rgb(244, 174, 124);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .cd:hover {
    
     background-color: transparent;
-    border-left: 4px groove rgb(224, 128, 60);;
+    border-left: 4px groove rgb(244, 174, 124);
     border-top: 4px groove #005585;
-    border-right: 4px groove rgb(224, 128, 60);;
+    border-right: 4px groove rgb(244, 174, 124);
     border-bottom: 4px groove #005585;
 }
 .cd1 {
