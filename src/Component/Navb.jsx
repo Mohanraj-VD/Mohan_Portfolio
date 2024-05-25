@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 function Navb() {
 
-  const o = <span style={{fontSize:"20px"}}>&#10689;</span>
+  const o = <span style={{fontSize:"20px",fontWeight:"bold"}}>&#10689;</span>
   return (
     <>  
       <Navbar id="main"  expand="lg" >

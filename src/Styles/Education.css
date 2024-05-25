@@ -40,6 +40,14 @@ th,td {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.cd:hover {
+   
+    background-color: transparent;
+    border-left: 4px groove gold;
+    border-top: 4px groove #005585;
+    border-right: 4px groove gold;
+    border-bottom: 4px groove #005585;
+}
 .cd1 {
     margin-left: 3%;
 }

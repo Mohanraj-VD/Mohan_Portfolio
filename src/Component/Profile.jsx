@@ -7,7 +7,7 @@ import Extras from './Extras';
 import { FaArrowAltCircleUp } from "react-icons/fa";
 const Profile = ({ ...props }) => {
     return (
-        <div>
+        <div id="bd">
             <div className='profile-container'>
                 <Navb />
                 <div className='profilepic'>
@@ -28,7 +28,7 @@ const Profile = ({ ...props }) => {
                 <Extras />
             </div>
             <footer id="foot"><a href="#">
-                <FaArrowAltCircleUp id="fa">Back to Top</FaArrowAltCircleUp></a>
+                <FaArrowAltCircleUp id="fa"/></a>
             </footer></div>
     );
 }

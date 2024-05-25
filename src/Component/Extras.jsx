@@ -34,8 +34,8 @@ const Extras = () => {
             </div>
 
         </dl>
-        <div className='cd'>
-            <span className='cd1' id="skill">
+        <div id="skill" className='cd'>
+            <span className='cd1' >
                 Skills</span>
 
         </div>
