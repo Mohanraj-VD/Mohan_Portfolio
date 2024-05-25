@@ -57,7 +57,7 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     #main {
         font-display: block;
         position: relative;
