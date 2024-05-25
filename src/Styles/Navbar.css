@@ -21,8 +21,10 @@
 #nv1 {
     color: #005585;
     font-weight: bold;
-    margin-left: 19%;
+    padding-right: 3%;
+    text-align: right;
     font-family: monospace;
+    padding-left:10%;
     letter-spacing: 0.1em;
 
 }
@@ -38,12 +40,16 @@
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 0.1em;
+    padding-right: 3%;
+    text-align: right;
 }
 
 #dropdown{
     background-color: rgb(219, 217, 217);
     color:#005585;
     font-weight: bold;
+    width: 100%;
+    text-align: left;
 }
 #nv2:hover {
     background-color: #005585;
@@ -69,11 +75,12 @@
         margin-left: 5%;
     }
     #nv1 {
-        
+        text-align: right;
         color: #005585;
         font-weight: bold;
-        padding-left: 3%;
         width: 100%;
+        margin-left: 0%;
+        padding-right: 2%;
     }
 
     #nv1:hover {
@@ -87,9 +94,10 @@
         color: #005585;
         font-weight: bold;
         margin-left: 0%;
-        padding-left: 3%;
+        padding-left: 0%;
+        padding-right: 2%;
         width: 100%;
-        text-align: left;
+        text-align: right;
 
     }
 
@@ -99,4 +107,17 @@
         padding: 3%;
     }
 
+    #dropdown{
+        background-color: rgb(219, 217, 217);
+        color:#005585;
+        font-weight: bold;
+        width: 100%;
+        text-align: left;
+    }
+
+    #dropdown:hover {
+        background-color: #005585;
+        color: rgb(246, 161, 101);
+        font-weight: bold;
+    }
 }
