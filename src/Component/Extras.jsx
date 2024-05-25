@@ -4,8 +4,8 @@ import '../../node_modules/font-awesome/css/font-awesome.min.css';
 const arrow = <span style={{ fontSize: "20px", fontWeight: "bolder" }}>&#8680;</span>;
 const Extras = () => {
     return (<div>
-        <div className='cd' id="exp">
-            <span className='cd1'>
+        <div className='cd'>
+            <span className='cd1'  id="exp">
                 Experience</span>
         </div>
         <dl id="cd1">
@@ -34,8 +34,8 @@ const Extras = () => {
             </div>
 
         </dl>
-        <div id="skill" className='cd'>
-            <span className='cd1'>
+        <div className='cd'>
+            <span className='cd1' id="skill">
                 Skills</span>
 
         </div>
@@ -75,8 +75,8 @@ const Extras = () => {
         </div>
 
 
-        <div id="prj" className='cd'>
-            <span className='cd1'>
+        <div className='cd'>
+            <span className='cd1' id="prj">
                 Projects</span>
 
         </div>
@@ -105,8 +105,8 @@ Tech Stack and Tools: React, HTML 5 , CSS 3, Vercel</li>
             </div>
         </div>
 
-        <div id="cert" className='cd'>
-            <span className='cd1'>
+        <div className='cd'>
+            <span className='cd1' id="cert">
                 Certifications</span>
 
         </div>

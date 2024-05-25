@@ -12,8 +12,8 @@ const Profile = ({ ...props }) => {
                 <Navb />
                 <div className='profilepic'>
                     <img src={require('../Assets/Clipped_image_20240522_190704.png')} alt="No image" className='profilephoto' /></div>
-                <div className='cd' id="ovw">
-                    <span className='cd1'>
+                <div className='cd'>
+                    <span className='cd1'  id="ovw">
                         Overview</span>
                 </div>
                 <div id="cd1">

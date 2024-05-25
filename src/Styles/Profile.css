@@ -77,8 +77,8 @@
     .profilephoto {
         width: 40%;
         height: 180px;
-        width: 160px;
-        margin-left: 20%;
+        width: 200px;
+        margin-left: 18%;
         margin-right: 30%;
         display: block;
         padding-top: 1%;
@@ -86,7 +86,7 @@
 
     .profilepic {
 
-        width: 70%;
+        width: 80%;
         margin-left: 20%;
     }
 
