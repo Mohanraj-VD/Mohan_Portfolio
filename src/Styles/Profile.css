@@ -4,8 +4,7 @@
 
 
 #bd {
-    background: rgb(208, 254, 255);
-    background: linear-gradient(0deg, rgb(208, 254, 255) 0%, rgb(252, 242, 234) 100%);
+    background: linear-gradient(50deg, rgb(230, 248, 248) 70%, rgb(228, 225, 225) 100%);
 }
 
 #p {
