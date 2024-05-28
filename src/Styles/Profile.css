@@ -54,8 +54,8 @@
     margin-left: 35%;
     width: 50%;
     height: 50%;
-    position: sticky;
-    margin-top: 1%;
+    position: relative;
+    margin-top:3%;
 }
 
 #foot {
@@ -80,12 +80,12 @@
     }
     .profilephoto {
         height: 40%;
-        width: 90%;
-        margin-top: 2%;
-        margin-left: 5%;
-        margin-right: 5%;
-        display: block;
-        opacity: 0.8;
+        width: 95%;
+        margin-top: 0%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        display: flex;
+        opacity: 0.9;
         border-radius: 20px 20px 20px 20px;
     }
 
