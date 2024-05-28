@@ -1,7 +1,6 @@
 import '../Styles/Education.css';
 import '../../node_modules/font-awesome/css/font-awesome.min.css';
 
-const arrow = <span style={{ fontSize: "20px", fontWeight: "bolder" }}>&#8680;</span>;
 const Extras = () => {
     return (<div>
         <div className='cd'>
@@ -81,7 +80,7 @@ const Extras = () => {
 
         </div>
         <div id="cd1">
-            <div id="p"><span style={{ fontWeight: "bold", color: "#005585" }}>Flight Booking System | Infosys Limited</span> <br /> Technology {arrow} Java, Spring Boot, React.js, MySQL, Rest API, jQuery, Bootstrap
+            <div id="p"><span style={{ fontWeight: "bold", color: "#005585" }}>Flight Booking System | Infosys Limited</span> <br /> Technology {'|'} Java, Spring Boot, React.js, MySQL, Rest API, jQuery, Bootstrap
                 <ul><li style={{ listStyleType: 'square' }}>
 
                     Designed and developed a Flight booking system for Agent and Customer interface to book/cancel the tickets using
@@ -89,10 +88,10 @@ const Extras = () => {
                     <li style={{ listStyleType: 'square' }}> Built a CI/CD pipeline using Jenkins, reducing deployment time by 40% and ensuring consistent and reliable
                         releases.
                     </li></ul></div>
-            <div id="p"><span style={{ fontWeight: "bold", color: "#005585" }}>API for BusBooking | Personal </span><br /> Technology {arrow} Java, Spring Boot, PostgreSQL, Rest API
+            <div id="p"><span style={{ fontWeight: "bold", color: "#005585" }}>API for BusBooking | Personal </span><br /> Technology {'|'} Java, Spring Boot, PostgreSQL, Rest API
                 <ul><li style={{ listStyleType: 'square' }}>
 
-                    Users can book a seat in Bus, cancel and update the seatPreference {arrow} In progress</li>
+                    Users can book a seat in Bus, cancel and update the seatPreference  {'|'}  In progress</li>
                 </ul>
             </div>
 
