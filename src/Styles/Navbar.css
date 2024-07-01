@@ -8,16 +8,41 @@
     color: #005585;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'oswald',serif;
+    font-family: 'oswald', serif;
     letter-spacing: 0.2em;
+    position: relative;
+    text-decoration: none;
+    padding: 0.5rem 0.25rem;
+    transition: color 0.25s;
+}
+
+
+#pp:hover {
+    color: rgb(246, 161, 101);
+
+}
+
+#pp::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: #005585;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.45s;
+    border-radius: 10px;
+}
+
+#pp:hover::after {
+    scale: 1 1;
 }
 
 #main {
     position: fixed;
     display: flex;
     width: 100%;
-    background-color: rgb(158, 192, 193); 
-    z-index:1;
+    background-color: rgb(158, 192, 193);
+    z-index: 1;
 
 }
 
@@ -26,7 +51,7 @@
     font-weight: bold;
     text-align: right;
     margin-right: 2%;
-    margin-left:10%;
+    margin-left: 10%;
     letter-spacing: 0.1em;
     font-size: 16px;
     font-family: "Roboto Slab", serif;
@@ -38,10 +63,10 @@
 
 #nv1:hover {
     color: rgb(246, 161, 101);
-    
+
 }
 
-#nv1::after{
+#nv1::after {
     position: absolute;
     content: "";
     inset: 0;
@@ -52,8 +77,8 @@
     border-radius: 10px;
 }
 
-#nv1:hover::after{
-        scale: 1 1;
+#nv1:hover::after {
+    scale: 1 1;
 }
 
 #nv2 {
@@ -71,20 +96,21 @@
     transition: color 0.25s;
 }
 
-#dropdown{
+#dropdown {
     background-color: rgb(221, 237, 236);
-    color:#005585;
+    color: #005585;
     font-weight: bold;
     width: 100%;
     text-align: left;
-    
+
 }
+
 #nv2:hover {
     color: rgb(246, 161, 101);
 
 }
 
-#nv2::after{
+#nv2::after {
     position: absolute;
     content: "";
     inset: 0;
@@ -95,8 +121,8 @@
     border-radius: 10px;
 }
 
-#nv2:hover::after{
-        scale: 1 1;
+#nv2:hover::after {
+    scale: 1 1;
 }
 
 #dropdown:hover {
@@ -106,17 +132,39 @@
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 986px) {
     #main {
         font-display: block;
         position: relative;
         width: 100%;
-        z-index:1;
+        z-index: 1;
     }
-    
-    #pp{
+
+    #pp {
         margin-left: 5%;
     }
+
+
+    #pp:hover {
+        color: rgb(246, 161, 101);
+
+    }
+
+    #pp::after {
+        position: absolute;
+        content: "";
+        inset: 0;
+        background-color: #005585;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius: 10px;
+    }
+
+    #pp:hover::after {
+        scale: 1 1;
+    }
+
     #nv1 {
         text-align: right;
         color: #005585;
@@ -124,17 +172,17 @@
         width: 100%;
         margin-left: 0%;
         padding-right: 2%;
-        position: relative;
         text-decoration: none;
         transition: color 0.25s;
+
     }
 
     #nv1:hover {
         color: rgb(246, 161, 101);
     }
-    
 
-    #nv1::after{
+
+    #nv1::after {
         position: absolute;
         content: "";
         inset: 0;
@@ -142,13 +190,16 @@
         scale: 1 0;
         z-index: -1;
         transition: 0.45s;
-        border-radius: 15px;
+        border-radius: 10px;
+        width: 30%;
+        margin-left: 70%;
     }
-    
-    #nv1:hover::after{
-            scale: 1 1;
+
+    #nv1:hover::after {
+        scale: 1 1;
     }
-    #nv2{
+
+    #nv2 {
         color: #005585;
         font-weight: bold;
         margin-left: 0%;
@@ -163,8 +214,8 @@
         color: rgb(246, 161, 101);
     }
 
-    
-    #nv2::after{
+
+    #nv2::after {
         position: absolute;
         content: "";
         inset: 0;
@@ -172,15 +223,19 @@
         scale: 1 0;
         z-index: -1;
         transition: 0.45s;
-        border-radius: 15px;
+        border-radius: 10px;
+        width: 30%;
+        margin-left: 70%;
     }
-    
-    #nv2:hover::after{
-            scale: 1 1;
+
+    #nv2:hover::after {
+        scale: 1 1;
     }
-    #dropdown{
-        background-color: rgb(221, 237, 236);;
-        color:#005585;
+
+    #dropdown {
+        background-color: rgb(221, 237, 236);
+        ;
+        color: #005585;
         font-weight: bold;
         width: 100%;
         text-align: left;
