@@ -30,12 +30,30 @@
     letter-spacing: 0.1em;
     font-size: 16px;
     font-family: "Roboto Slab", serif;
+    position: relative;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    transition: color 0.25s;
 }
 
 #nv1:hover {
-    background-color: #005585;
     color: rgb(246, 161, 101);
+    
+}
 
+#nv1::after{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: #fefefe;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.45s;
+    border-radius: 10px;
+}
+
+#nv1:hover::after{
+        scale: 1 1;
 }
 
 #nv2 {
@@ -47,6 +65,10 @@
     text-align: right;
     font-size: 16px;
     font-family: "Roboto Slab", serif;
+    position: relative;
+    text-decoration: none;
+    padding: 0.5rem 0.4rem;
+    transition: color 0.25s;
 }
 
 #dropdown{
@@ -55,17 +77,33 @@
     font-weight: bold;
     width: 100%;
     text-align: left;
+    
 }
 #nv2:hover {
-    background-color: #005585;
     color: rgb(246, 161, 101);
 
+}
+
+#nv2::after{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: #fefefe;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.45s;
+    border-radius: 10px;
+}
+
+#nv2:hover::after{
+        scale: 1 1;
 }
 
 #dropdown:hover {
     background-color: #005585;
     color: rgb(246, 161, 101);
     font-weight: bold;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -86,14 +124,30 @@
         width: 100%;
         margin-left: 0%;
         padding-right: 2%;
+        position: relative;
+        text-decoration: none;
+        transition: color 0.25s;
     }
 
     #nv1:hover {
-        background-color: #005585;
         color: rgb(246, 161, 101);
     }
     
 
+    #nv1::after{
+        position: absolute;
+        content: "";
+        inset: 0;
+        background-color: #fefefe;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius: 15px;
+    }
+    
+    #nv1:hover::after{
+            scale: 1 1;
+    }
     #nv2{
         color: #005585;
         font-weight: bold;
@@ -106,11 +160,24 @@
     }
 
     #nv2:hover {
-        background-color: #005585;
         color: rgb(246, 161, 101);
-        padding: 3%;
     }
 
+    
+    #nv2::after{
+        position: absolute;
+        content: "";
+        inset: 0;
+        background-color: #fefefe;
+        scale: 1 0;
+        z-index: -1;
+        transition: 0.45s;
+        border-radius: 15px;
+    }
+    
+    #nv2:hover::after{
+            scale: 1 1;
+    }
     #dropdown{
         background-color: rgb(221, 237, 236);;
         color:#005585;
@@ -123,5 +190,7 @@
         background-color: #005585;
         color: rgb(246, 161, 101);
         font-weight: bold;
+        transition: 0.26s;
+        border-radius: 10px;
     }
 }
