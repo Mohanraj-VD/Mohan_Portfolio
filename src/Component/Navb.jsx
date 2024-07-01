@@ -12,7 +12,7 @@ function Navb() {
       
         <Navbar.Brand id="pp" href="#">Pers{o}nal Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav btn-close">
           <Nav className="me-auto" >
             <Nav.Link href="#ovw" id="nv1">Home</Nav.Link>
             <Nav.Link href="#abt" id="nv2">About</Nav.Link>
