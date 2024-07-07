@@ -46,53 +46,18 @@
 
 }
 
-#nv1 {
-    color: #005585;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 2%;
-    margin-left: 10%;
-    letter-spacing: 0.1em;
-    font-size: 16px;
-    font-family: "Roboto Slab", serif;
-    position: relative;
-    text-decoration: none;
-    padding: 0.5rem 0.75rem;
-    transition: color 0.25s;
-}
-
-#nv1:hover {
-    color: rgb(246, 161, 101);
-
-}
-
-#nv1::after {
-    position: absolute;
-    content: "";
-    inset: 0;
-    background-color: #fefefe;
-    scale: 1 0;
-    z-index: -1;
-    transition: 0.45s;
-    border-radius: 10px;
-}
-
-#nv1:hover::after {
-    scale: 1 1;
-}
-
 #nv2 {
     color: #005585;
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 0.1em;
-    margin-right: 2%;
     text-align: right;
+    margin-right: 3%;
+    margin-left: 2%;
     font-size: 16px;
     font-family: "Roboto Slab", serif;
     position: relative;
     text-decoration: none;
-    padding: 0.5rem 0.4rem;
     transition: color 0.25s;
 }
 
@@ -102,12 +67,12 @@
     font-weight: bold;
     width: 100%;
     text-align: left;
-
+    position: relative;
 }
 
 #nv2:hover {
-    color: rgb(246, 161, 101);
-
+    color:rgb(216, 110, 35); 
+    position: relative;
 }
 
 #nv2::after {
@@ -141,12 +106,14 @@
     }
 
     #pp {
-        margin-left: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 
     #pp:hover {
         color: rgb(246, 161, 101);
+
 
     }
 
@@ -165,58 +132,21 @@
         scale: 1 1;
     }
 
-    #nv1 {
-        text-align: right;
-        color: #005585;
-        font-weight: bold;
-        width: 100%;
-        margin-left: 0%;
-        padding-right: 2%;
-        text-decoration: none;
-        transition: color 0.25s;
-
-    }
-
-    #nv1:hover {
-        color: rgb(246, 161, 101);
-    }
-
-
-    #nv1::after {
-        position: absolute;
-        content: "";
-        inset: 0;
-        background-color: #fefefe;
-        scale: 1 0;
-        z-index: -1;
-        transition: 0.45s;
-        border-radius: 10px;
-        width: 30%;
-        margin-left: 69%;
-    }
-
-    #nv1:hover::after {
-        scale: 1 1;
-    }
-
     #nv2 {
         color: #005585;
         font-weight: bold;
-        margin-left: 0%;
-        padding-left: 0%;
-        padding-right: 2%;
-        width: 100%;
-        text-align: right;
-
+        text-align: left;
+        margin-left: 2%;
+        padding-left: 4%;
     }
 
-    #nv2:hover {
-        color: rgb(246, 161, 101);
+    #nv2:hover {    
+        color:rgb(216, 110, 35); 
+
     }
 
 
     #nv2::after {
-        position: absolute;
         content: "";
         inset: 0;
         background-color: #fefefe;
@@ -224,8 +154,9 @@
         z-index: -1;
         transition: 0.45s;
         border-radius: 10px;
-        width: 50%;
-        margin-left: 49%;
+        padding-right: 2%;
+        width: 40%;
+        border: 2px solid #005585;
     }
 
     #nv2:hover::after {
@@ -234,7 +165,6 @@
 
     #dropdown {
         background-color: rgb(221, 237, 236);
-        ;
         color: #005585;
         font-weight: bold;
         width: 100%;
