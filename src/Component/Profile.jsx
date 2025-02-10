@@ -24,6 +24,7 @@ const Profile = ({ ...props }) => {
 
                         My ability to communicate complex ideas clearly and work collaboratively with colleagues from diverse backgrounds allows me to thrive in dynamic and fast-paced environments."</p>
                 </div>
+
                 <Education />
                 <Extras />
             </div>
