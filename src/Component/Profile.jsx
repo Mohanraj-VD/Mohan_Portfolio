@@ -11,7 +11,7 @@ const Profile = ({ ...props }) => {
             <div className='profile-container'>
                 <Navb />
                 <div className='profilepic'>
-                    <img src={require('../Assets/M2.jpeg')} alt="No image" className='profilephoto' /></div>
+                    <img src={require('../Assets/M2.jpg')} alt="No image" className='profilephoto' /></div>
                 <div className='cd'>
                     <span className='cd1'  id="ovw">
                         Overview</span>
